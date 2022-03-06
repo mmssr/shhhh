@@ -86,15 +86,15 @@ s::::::::::::::s h:::::h     h:::::hh:::::h     h:::::hh:::::h     h:::::hh:::::
 */
 
 
-#include <linux/init.h>     // macros used to mark up function,s eg __init__exit
-#include <linux/module.h>   // core header for loading LKMs into the kernel
-#include <linux/kernel.h>   // contains types, macros, functions for the kernel, eg KERN_INFO
+#include <linux/init.h>     // macros for function markup eg __init__exit
+#include <linux/module.h>   // header for loading LKMs
+#include <linux/kernel.h>   // kernel types/macros/functions, eg KERN_INFO
 
 
-/* Module Information */
+/* Module Info */
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("mmssr");
-MODULE_DESCRIPTION("LKM");
+MODULE_DESCRIPTION("LKM Wargame/Educational Tool");
 MODULE_VERSOPM("0.0.1");
 
 
@@ -117,3 +117,4 @@ static int __
 
 module_init(mod_init);
 module_exit(mod_exit);
+MODULE_LICENSE("GPL");
