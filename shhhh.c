@@ -100,7 +100,7 @@ MODULE_VERSOPM("0.0.1");
 
 static int __init mod_init(void)
 {
-    print(KERN_INFO, "shhhh: init\n");
+    printk(KERN_INFO, "shhhh: init\n");
     
     return 0;
 }
