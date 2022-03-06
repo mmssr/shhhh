@@ -93,7 +93,7 @@ s::::::::::::::s h:::::h     h:::::hh:::::h     h:::::hh:::::h     h:::::hh:::::
 
 /* Module Info */
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("mmssr");
+MODULE_AUTHOR("@0x6D6172636F");
 MODULE_DESCRIPTION("LKM Wargame/Educational Tool");
 MODULE_VERSOPM("0.0.1");
 
